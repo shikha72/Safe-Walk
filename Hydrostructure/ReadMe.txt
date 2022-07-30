@@ -15,5 +15,7 @@ where,
 start(W) - first edge of the walk and
 end(W) - last edge of the specified walk
 
+hydrostructure.png depicts the model where arrows represent the cases in which edge insertion is safe.
+
 Reference- "The Hydrostructure: a Universal Framework for Safe and Complete
 Algorithms for Genome Assembly" Link: https://arxiv.org/abs/2011.12635
