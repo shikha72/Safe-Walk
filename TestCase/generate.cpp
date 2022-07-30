@@ -589,6 +589,7 @@ int main(){
     vector<int> wlk = edge_covering_walk(g, container.size());
     vector<pair<int, int>> allwalks = all_maximal_safewalk(g, wlk);
 
+    //loop and generate another graph untill we get a safe walk
     while (allwalks.size() == 0){
         // generate another testcase
 
